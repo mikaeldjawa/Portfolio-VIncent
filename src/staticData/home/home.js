@@ -64,8 +64,8 @@ export const introduce = {
 		title: 'INTRODUCE',
 	},
 	heading: {
-		heading1: 'Turning Ideas into ',
-		heading2: 'Interactive Realities',
+		heading1: 'Bridging Business &',
+		heading2: 'Technology',
 	},
 	desc: (
 		<p>
