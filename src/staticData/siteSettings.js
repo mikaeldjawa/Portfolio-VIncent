@@ -20,9 +20,9 @@ import { MdFormatListBulleted } from 'react-icons/md';
 export const siteSettings = {
 	logo: {
 		image: logo?.src,
-		alt: 'Minfo',
+		alt: 'Vincent Wijaya',
 		url: '/',
-		text: 'Minfo',
+		text: 'Vincent Wijaya',
 	},
 	headersMenu: [
 		{
