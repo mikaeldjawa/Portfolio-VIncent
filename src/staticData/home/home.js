@@ -182,7 +182,7 @@ export const userDetailsSidebar = {
 		{
 			id: 3,
 			field: 'Age',
-			value: '22',
+			value: (new Date().getFullYear() - 2000).toString(),
 		},
 	],
 	skillsInfo: [
