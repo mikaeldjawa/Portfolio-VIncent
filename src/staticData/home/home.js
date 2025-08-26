@@ -207,7 +207,7 @@ export const userDetailsSidebar = {
 export const projectExperiences = [
 	{
 		title: 'Years Of Experience',
-		count: 2,
+		count: 1,
 		postFix: true,
 	},
 	{
