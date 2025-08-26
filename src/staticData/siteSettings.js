@@ -16,6 +16,22 @@ import { LiaBlogSolid } from 'react-icons/lia';
 import { BiCommentDetail } from 'react-icons/bi';
 import { FaRegUser } from 'react-icons/fa6';
 import { MdFormatListBulleted } from 'react-icons/md';
+import { resume } from './home/home';
+
+export const createProjectSlug = (title) => {
+	return 'project-' + title
+		.toLowerCase()
+		.trim()
+		.replace(/[^a-z0-9\s-]/g, '')
+		.replace(/\s+/g, '-');
+};
+
+const projectSubMenu = resume.resumeData.map((project, index) => ({
+	id: 50 + index + 1,
+	title: project.project,
+	selector: `#${createProjectSlug(project.project)}`,
+	url: "/"
+}))
 
 export const siteSettings = {
 	logo: {
@@ -59,11 +75,12 @@ export const siteSettings = {
 		},
 		{
 			id: 5,
-			title: 'Resume',
-			selector: '#resume',
+			title: 'Projects',
+			selector: '#projects',
 			url: '/',
 			Icon: <FaRegFileAlt />,
 			notVisibleRoutes: [],
+			subMenu: projectSubMenu
 		},
 		// {
 		// 	id: 6,

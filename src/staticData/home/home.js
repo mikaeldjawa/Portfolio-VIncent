@@ -328,6 +328,7 @@ export const resume = {
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'July 2025-August 2025',
+			project: 'Billpayment Axis Prepaid',
 			position: 'Developer (Placement at PT Permata Bank - Billpayment Axis Prepaid)',
 			description: ["Designed and implemented a new database structure from the ground up to support Axis-only prepaid reconciliation, following the decoupling of Axis from the previously integrated XL-Axis reconciliation system.",
 				"Enhanced existing reconciliation modules to align with updated transaction flows and Axis-specific requirements.",
@@ -343,6 +344,7 @@ export const resume = {
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'July 2025',
+			project: 'Billpayment Modern Channel',
 			position: 'Developer (Placement at PT Bank Tabungan Negara (BTN) - Billpayment Modern Channel)',
 			description:
 				[
@@ -355,6 +357,7 @@ export const resume = {
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'March 2025-June 2025',
+			project: 'QRIS NFC Double Tap',
 			position: 'Developer (Placement at PT Permata Bank - QRIS NFC Double Tap)',
 			description:
 				[
@@ -371,6 +374,7 @@ export const resume = {
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'October 2024-March 2025',
+			project: 'Loan Management System',
 			position: 'IT Business Analyst (Placement at PT Bank BNI Persero Tbk - Loan Management System)',
 			description:
 				[
@@ -386,6 +390,7 @@ export const resume = {
 		{
 			platform: 'PT Bumi Amartha Teknologi Mandiri',
 			duration: 'September 2023-December 2023',
+			project: 'Timesheet Application Development',
 			position: 'IT Graduate Development Program - Intern',
 			description:
 				[

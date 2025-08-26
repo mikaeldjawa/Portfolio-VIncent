@@ -1,6 +1,17 @@
-const SingleExperience = ({ platform, duration, position, description }) => {
+import { createProjectSlug } from "@/src/staticData/siteSettings";
+
+const SingleExperience = ({
+  platform,
+  duration,
+  position,
+  description,
+  project,
+}) => {
   return (
-    <li className='p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none'>
+    <li
+      id={createProjectSlug(project)}
+      className='p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none'
+    >
       <div className='flex items-center justify-between mb-5 md:w-64 md:block md:mb-0'>
         <h6 className='text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100'>
           {platform}
