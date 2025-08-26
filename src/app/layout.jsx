@@ -13,7 +13,7 @@ import "react-circular-progressbar/dist/styles.css";
 import { Lit } from "litlyx-js";
 Lit.init("6677d4122e282316a8b1bc7f");
 
-import CustomCursor from "@/src/components/shared/CustomCursor";
+// import CustomCursor from "@/src/components/shared/CustomCursor";
 import { Poppins } from "next/font/google";
 import BackToTop from "@/src/components/shared/BackToTop";
 import ModeSwitcher from "@/src/components/shared/ModeSwitcher";
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <main>
             {children}
-            <CustomCursor />
+            {/* <CustomCursor /> */}
             <BackToTop />
             <ModeSwitcher />
           </main>

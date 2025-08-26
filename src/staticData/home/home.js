@@ -144,7 +144,7 @@ export const userDetails = [
 	},
 	{
 		field: 'LinkedIn',
-		value: 'vincentwijaya2701',
+		value: 'Vincent Wijaya',
 		link: 'https://www.linkedin.com/in/vincentwijaya2701/',
 	},
 	{
@@ -325,6 +325,22 @@ export const resume = {
 			'As an IT Business Analyst and Developer, I have designed reconciliation systems and automated financial processes in the banking sector. I have experience with Agile collaboration, full-stack development, and creating clear documentation.',
 	},
 	resumeData: [
+		{
+			platform: 'Mastersystem Infotama',
+			duration: 'July 2025-August 2025',
+			project: 'Billpayment XL Satu',
+			position: 'Developer (Placement at PT Permata Bank - Billpayment XL Satu)',
+			description: ["Designed and implemented a new database structure from the ground up to support Axis-only prepaid reconciliation, following the decoupling of Axis from the previously integrated XL-Axis reconciliation system.",
+				"Enhanced existing reconciliation modules to align with updated transaction flows and Axis-specific requirements.",
+				"Designed and implemented MySQL database structures with SQL Server Management Studio.",
+				"Built reconciliation applications for Axis Prepaid transactions including File Load, RDE, Validation Reconciliation, RPT, and Global Update.",
+				"Coordinated closely with clients to understand business requirements, aligning system development with their organizational goals.",
+				"Created journal transactions: Force Credit (returning funds from the bank to the customer), Force Debit (withdrawing funds from the customer to the bank), and Journal CE (processed fund transfers from Bank Permata to PT Mitracom, ensuring accurate and timely settlement through automated journal entries).",
+				"Conducted comprehensive unit testing (SIT) and user acceptance testing (UAT) to ensure system quality, functionality, and security before deployment.",
+				"Created detailed and structured system documentation, supporting clear understanding and facilitating future maintenance and development.",
+				"Delivered automated reports for transaction matching and journal status, reducing manual audit time by 30%."
+			],
+		},
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'July 2025-August 2025',
