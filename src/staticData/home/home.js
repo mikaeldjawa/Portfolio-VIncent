@@ -140,10 +140,12 @@ export const userDetails = [
 	{
 		field: 'Phone',
 		value: '+62 851-5640-4021',
+		link: 'tel:+6285156404021',
 	},
 	{
 		field: 'LinkedIn',
 		value: 'vincentwijaya2701',
+		link: 'https://www.linkedin.com/in/vincentwijaya2701/',
 	},
 	{
 		field: 'Language',
@@ -152,10 +154,12 @@ export const userDetails = [
 	{
 		field: 'Email',
 		value: 'vince.wijaya27@gmail.com',
+		link: 'mailto:vince.wijaya27@gmail.com',
 	},
 	{
 		field: 'GitHub',
 		value: 'vincentkled',
+		link: 'https://github.com/vincentkled',
 	},
 ];
 
@@ -325,36 +329,74 @@ export const resume = {
 			platform: 'Mastersystem Infotama',
 			duration: 'July 2025-August 2025',
 			position: 'Developer (Placement at PT Permata Bank - Billpayment Axis Prepaid)',
-			description:
-				'Designed and implemented a new database structure for Axis-only prepaid reconciliation and enhanced existing modules. Built reconciliation applications for Axis Prepaid transactions, including File Load, RDE, Validation Reconciliation, RPT, and Global Update. Created journal transactions (Force Credit, Force Debit, Journal CE) and conducted unit testing (SIT) and user acceptance testing (UAT). Delivered automated reports for transaction matching and journal status, reducing manual audit time by 30%.',
+			description: ["Designed and implemented a new database structure from the ground up to support Axis-only prepaid reconciliation, following the decoupling of Axis from the previously integrated XL-Axis reconciliation system.",
+				"Enhanced existing reconciliation modules to align with updated transaction flows and Axis-specific requirements.",
+				"Designed and implemented MySQL database structures with SQL Server Management Studio.",
+				"Built reconciliation applications for Axis Prepaid transactions including File Load, RDE, Validation Reconciliation, RPT, and Global Update.",
+				"Coordinated closely with clients to understand business requirements, aligning system development with their organizational goals.",
+				"Created journal transactions: Force Credit (returning funds from the bank to the customer), Force Debit (withdrawing funds from the customer to the bank), and Journal CE (processed fund transfers from Bank Permata to PT Mitracom, ensuring accurate and timely settlement through automated journal entries).",
+				"Conducted comprehensive unit testing (SIT) and user acceptance testing (UAT) to ensure system quality, functionality, and security before deployment.",
+				"Created detailed and structured system documentation, supporting clear understanding and facilitating future maintenance and development.",
+				"Delivered automated reports for transaction matching and journal status, reducing manual audit time by 30%."
+			],
 		},
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'July 2025',
 			position: 'Developer (Placement at PT Bank Tabungan Negara (BTN) - Billpayment Modern Channel)',
 			description:
-				'Developed reconciliation applications and was responsible for gathering and analyzing business requirements, as well as preparing Technical Specification Documents (TSD). Designed and developed database applications using SQL Server Management Studio (SSMS) for Indomaret cash deposit and cash withdrawal transaction processing. Delivered automated reports for transaction matching and journal status, reducing manual audit time by 35%.',
+				[
+					"Developed reconciliation applications tailored to client company needs, ensuring process efficiency and data accuracy.",
+					"Responsible for gathering and analyzing business requirements, and preparing Technical Specification Documents (TSD).",
+					"Designed and developed database applications using SQL Server Management Studio (SSMS) to support Indomaret cash deposit (setor tunai) and cash withdrawal (tarik tunai) transaction processing.",
+					"Delivered automated reports for transaction matching and journal status, reducing manual audit time by 35%."
+				],
 		},
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'March 2025-June 2025',
 			position: 'Developer (Placement at PT Permata Bank - QRIS NFC Double Tap)',
 			description:
-				'Developed reconciliation applications and designed and implemented MySQL database structures with SQL Server Management Studio. Built reconciliation applications for QRIS Double Tap transactions, including File Load, RDE, Validation Reconciliation, RPT, and Global Update. Created journal transactions (Force Credit, Force Debit, Release Hold) and conducted unit testing (SIT) and user acceptance testing (UAT). Delivered automated reports for transaction matching and journal status, reducing manual audit time by 30%.',
+				[
+					"Developed reconciliation applications tailored to client company needs, ensuring process efficiency and data accuracy.",
+					"Designed and implemented MySQL database structures with SQL Server Management Studio.",
+					"Built reconciliation applications for QRIS Double Tap transactions and QRIS Double Tap Hold including File Load, RDE, Validation Reconciliation, RPT, and Global Update.",
+					"Coordinated closely with clients to understand business requirements, aligning system development with their organizational goals.",
+					"Created journal transactions: Force Credit (returning funds from the bank to the customer), Force Debit (withdrawing funds from the customer to the bank), and Release Hold (processed refunds for held funds older than 10 days, ensuring timely return to customers and accurate journal entries in compliance with reconciliation policies).",
+					"Conducted comprehensive unit testing (SIT) and user acceptance testing (UAT) to ensure system quality, functionality, and security before deployment.",
+					"Created detailed and structured system documentation, supporting clear understanding and facilitating future maintenance and development.",
+					"Delivered automated reports for transaction matching and journal status, reducing manual audit time by 30%."
+				],
 		},
 		{
 			platform: 'Mastersystem Infotama',
 			duration: 'October 2024-March 2025',
 			position: 'IT Business Analyst (Placement at PT Bank BNI Persero Tbk - Loan Management System)',
 			description:
-				'Contributed to the LMS project using Agile SCRUM methodology. Managed sprint backlogs and monitored progress via JIRA. Reviewed Figma designs, led integration coordination, and supported the development of the BNI Griya Cessie special product. Prepared detailed Product Requirement Documents (PRD) and Functional Specification Documents (FSD) and visualized system processes using Whimsical.',
+				[
+					"Contributed to LMS project execution using Agile SCRUM methodology.",
+					"Managed sprint backlogs and monitored progress via JIRA.",
+					"Reviewed Figma designs for UI/UX consistency with business requirements.",
+					"Led integration coordination with BP Tapera for eKPR Subsidy, ensuring seamless data alignment between platforms.",
+					"Supported the development of the BNI Griya Cessie special product.",
+					"Prepared detailed Product Requirement Documents (PRD) and Functional Specification Documents (FSD).",
+					"Visualized system processes using Whimsical for clearer stakeholder understanding."
+				]
 		},
 		{
 			platform: 'PT Bumi Amartha Teknologi Mandiri',
 			duration: 'September 2023-December 2023',
 			position: 'IT Graduate Development Program - Intern',
 			description:
-				'Developed a timesheet application using the Waterfall methodology. Designed and implemented MySQL database structures. Built back-end systems using Java Spring Boot and front-end interfaces with ReactJS. Designed and tested APIs with Postman and acted as Project Manager to oversee timelines and deliverables. Collaborated with the development team via GitHub.',
+				[
+					"Developed a timesheet application using the Waterfall methodology.",
+					"Designed and implemented MySQL database structures.",
+					"Built back-end systems using Java Spring Boot.",
+					"Developed front-end interfaces with ReactJS.",
+					"Designed and tested APIs with Postman.",
+					"Acted as Project Manager to oversee timelines and deliverables.",
+					"Collaborated with development team via GitHub."
+				]
 		},
 	],
 };
