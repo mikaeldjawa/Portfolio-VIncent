@@ -330,7 +330,7 @@ export const resume = {
 			duration: 'July 2025-August 2025',
 			project: 'Billpayment XL Satu',
 			position: 'Developer (Placement at PT Permata Bank - Billpayment XL Satu)',
-			description: ["Designed and implemented a new database structure from the ground up to support Axis-only prepaid reconciliation, following the decoupling of Axis from the previously integrated XL-Axis reconciliation system.",
+			description: ["Designed and implemented a new database structure from the ground up to support XL Satu prepaid reconciliation, following the decoupling of Axis from the previously integrated XL Satu reconciliation system.",
 				"Enhanced existing reconciliation modules to align with updated transaction flows and Axis-specific requirements.",
 				"Designed and implemented MySQL database structures with SQL Server Management Studio.",
 				"Built reconciliation applications for Axis Prepaid transactions including File Load, RDE, Validation Reconciliation, RPT, and Global Update.",
