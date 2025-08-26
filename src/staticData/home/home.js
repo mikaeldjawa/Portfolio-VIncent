@@ -318,7 +318,7 @@ export const skills = {
 export const resume = {
 	resumeHeading: {
 		icon: <FaFolderOpen className='text-theme' />,
-		title: 'RESUME',
+		title: 'Experience',
 		heading: 'Work',
 		coloredHeading: 'Experience',
 		description:
